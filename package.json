@@ -1,6 +1,6 @@
 {
   "name": "value-units",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Package to deal with an object containing value and units",
   "main": "lib/index.js",
   "module": "src/index.js",
