@@ -5,6 +5,10 @@ test('split', () => {
     value: 100,
     units: 'nm',
   });
+  expect(split('100 nm', { factor: -1 })).toStrictEqual({
+    value: -100,
+    units: 'nm',
+  });
   expect(split('1e-5eV')).toStrictEqual({
     value: 0.00001,
     units: 'eV',
